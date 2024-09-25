@@ -14,7 +14,7 @@ dropdown.addEventListener('click', function(event) {
 
 // Seccion Firebase
 
-const firebaseConfig = {
+c/* onst firebaseConfig = {
     apiKey: "AIzaSyB3AJBzqkZE8zVLZ8gJAVRkOeLyBl1aKao",
     authDomain: "csmmobiliario.firebaseapp.com",
     databaseURL: "https://csmmobiliario-default-rtdb.firebaseio.com",
@@ -40,7 +40,7 @@ formulario.addEventListener("submit", async(e) => {
         const mail = formulario["Mail"];
         const mensaje = formulario["Mensaje"];
         try {
-            /* console.log(nombre, telefono, mail, mensaje); */
+            
             await saveCliente(nombre.value, telefono.value, mail.value, mensaje.value);
             alert('La información ha sido enviada correctamente');
             nombre.focus();
@@ -49,5 +49,5 @@ formulario.addEventListener("submit", async(e) => {
             alert("no ha sido posible enviar los datos");
         }
 
-    })
+    }) */
     // Termina la seccion Firebase
